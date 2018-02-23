@@ -46,7 +46,8 @@ function initialize() {
   var mapOptions = {
     zoom: 17,
     zoomControl: false,
-    streetViewControl: false,
+    streetViewControl: true,
+    fullscreenControl: false,
     center: {lat: 53.570645, lng: 10.001362}
   };
   map = new google.maps.Map(document.getElementById('map-canvas'),mapOptions);
